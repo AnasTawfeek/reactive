@@ -4,7 +4,7 @@ import JSONfn from './utils/jsongn';
 (function (exports) {
     "use strict";
 
-    exports.saveComponent = function (obj) {
+    exports.createComponent = function (obj) {
         return JSONfn.stringify(obj);
     };
 

@@ -1,13 +1,13 @@
 import Reactive, { ReusableComponent } from '../src';
 
 // Reusable Component Converted from JSX to JS Syntax
-var MyComponent = Hub.loadComponent({
+var MyComponent = Reactive.loadComponent({
     displayName: "MyComponent",
     render: function () {
         return React.createElement(
             "div",
             null,
-            "Hello "
+            "Hello World"
         );
     }
 })

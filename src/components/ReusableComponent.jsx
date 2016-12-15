@@ -8,7 +8,7 @@ export default class ReusableComponent extends React.Component {
         super(props);
     }
     render() {
-        const ComponentClass = Reactive.saveComponent(this.props.component);
+        const ComponentClass = Reactive.loadComponent(this.props.component);
         return <ComponentClass />
     }
 }
