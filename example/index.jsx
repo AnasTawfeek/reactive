@@ -1,7 +1,7 @@
 import Reactive, { ReusableComponent } from '../src';
 
 // Reusable Component Converted from JSX to JS Syntax
-var MyComponent = Reactive.loadComponent({
+var MyComponent = Reactive.createComponent({
     displayName: "MyComponent",
     render: function () {
         return React.createElement(
